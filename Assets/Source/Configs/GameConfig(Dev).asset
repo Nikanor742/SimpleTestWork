@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: GameConfig(Dev)
   m_EditorClassIdentifier: 
   lineDrawer: {fileID: 578873352, guid: b58603d39f6ed4146b9bb7c0a2a1c686, type: 3}
-  enemiesDestinationDistance: 0.5
-  levelBounds: {x: 15, y: 15}
+  enemiesDestinationDistance: 1
+  levelBounds: {x: 50, y: 50}
