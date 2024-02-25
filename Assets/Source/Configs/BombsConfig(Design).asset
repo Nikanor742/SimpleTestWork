@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92c0e156a0823554eb8632a55f8477ea, type: 3}
+  m_Name: BombsConfig(Design)
+  m_EditorClassIdentifier: 
+  bombsData:
+  - bombType: 0
+    radius: 3
+    delay: 0
+    damage: 50
+    prefab: {fileID: 5918712290533428338, guid: 2a08e282e6482434bba1b8b5ed85b7f3, type: 3}
+    explosionFX: {fileID: 2433282508523890284, guid: 3ef3ae421f71c5c4e97fe12dc2fc6312, type: 3}
+  - bombType: 1
+    radius: 3
+    delay: 2
+    damage: 200
+    prefab: {fileID: 5918712290533428338, guid: bd5b773f78c434b4f86510a08e6ededa, type: 3}
+    explosionFX: {fileID: 4593184484909914550, guid: 2e1e9506f5904a64b81744324fb7cd50, type: 3}
